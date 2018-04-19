@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.labelStyle {
+     position: relative;
+    top: 0;
+    font-size: 20px;
+    color: #aaa;
+    left: 92px;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.inputBox {
+  border: none;
+  border-bottom:  2px solid goldenrod;
+  width: 200px;
+  height: 25px;
+}
+
+.labelStyle.active {
+  top: -20px;
+  font-size: 14px;
+  color: goldenrod;
+  left: 65px;
+}
